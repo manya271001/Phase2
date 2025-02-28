@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Layout from './Layout';
 import Home from './Home';
 import AboutUs from './About';
+import Registration from './Registration';
 
 
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="products" element={<ProductCategory />} />
+           <Route path="registration" element={<Registration />} />    
             <Route path="about" element={<AboutUs />} />
             <Route path="contact" element={<ContactUs />} />
           </Route>
