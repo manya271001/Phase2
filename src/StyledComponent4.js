@@ -117,15 +117,16 @@ background-color:grey;
 function StyledComponent4(){
     return(
         <div>
-            <div id="top" style={{display:"flex" , justifyContent:"space-between"}}>
+            <div id="top" style={{display:"flex" , justifyContent:"center" ,alignItems:"center"}}>
             <RedBtn>Button 1</RedBtn>
             <GreenBtn>Button 2 </GreenBtn>
             <BlueBtn>Button 3</BlueBtn>
             <OrangeBtn>Button 4</OrangeBtn>
             <VioletBtn>Button 5</VioletBtn>
+               
             </div>
-            <div id="buttom"style={{display:"flex" , justifyContent:"space-between"}}>
-                <YellowBtn>Button 6</YellowBtn>
+            <div id="buttom"style={{display:"flex" , justifyContent:"center" ,alignItems:"center"}}>
+             <YellowBtn>Button 6</YellowBtn>
                 <AquaBtn>Button 7</AquaBtn>
                 <GreyBtn>Button 8</GreyBtn>
             </div>

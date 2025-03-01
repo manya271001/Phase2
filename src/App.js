@@ -16,6 +16,8 @@ import StyledComponent2 from './StyledComponent2';
 import StyledComponent3 from './StyledComponent3';
 import StyledComponentClass from './StyledComponentClass';
 import StyledComponent4 from './StyledComponent4';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import BootStrapDemo from './BootStrapDemo';
 
 
 
@@ -33,11 +35,14 @@ function App() {
       {/* <ContactUs/> */}
 
 
-        <StyledComponent4/>
+        {/* <StyledComponent4/> */}
        {/* <StyledComponent3/>
       <StyledComponent2/>
       <StyledComponent/> 
       <StyledComponentClass/> */}
+
+
+      <BootStrapDemo/>
 
 
 
