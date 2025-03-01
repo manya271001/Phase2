@@ -8,6 +8,15 @@ import Layout from './Layout';
 import Home from './Home';
 import AboutUs from './About';
 import Registration from './Registration';
+import Car from './ClassComp';
+import ProductList from './ProductList';
+import Football from './Football';
+import StyledComponent from './StyledComponent';
+import StyledComponent2 from './StyledComponent2';
+import StyledComponent3 from './StyledComponent3';
+import StyledComponentClass from './StyledComponentClass';
+import StyledComponent4 from './StyledComponent4';
+
 
 
 
@@ -22,8 +31,18 @@ function App() {
       {/* <ProductCategory/> */}
       {/* <MyComponent/> */}
       {/* <ContactUs/> */}
-  
-       <Router>
+
+
+        <StyledComponent4/>
+       {/* <StyledComponent3/>
+      <StyledComponent2/>
+      <StyledComponent/> 
+      <StyledComponentClass/> */}
+
+
+
+
+       {/* <Router>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
@@ -34,6 +53,9 @@ function App() {
           </Route>
         </Routes>
       </Router>
+        <Car/>
+        <Football/>
+        <ProductList/> */}
     </div>
   );
 }
